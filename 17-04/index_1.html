@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Website- home page</title>
+    
+<link rel="stylesheet"href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Jan Kowalski - personal page</h1>
+
+        <nav>
+            <ul>
+                <li><a href="serials/index.html">Favorite serials</a></li>
+                <li><a href="books/index.html">Favorite books</a></li>
+
+            </ul>
+        </nav>
+    </header>
+ 
+    <main>
+        <article>
+            <h2> A few words about me</h2>
+
+            I am a graduate of <b>High School in Rzeszow</b>, Which I graduated <i>with honors. </i>
+            In my free time I like to read crime books.
+            I like to travel in the mountains and make new friends.
+
+        </article>
+
+        <!-- Task 2 -->
+        <!-- Proszę skierować studentów na stronę:
+    https://devdocs.io/html/element/ul
+    tam znajduje się przykład zagnieżdżania list-->
+        <article>
+            <h4>My favorite serials</h4>
+            <ul>
+                <li>Game of Thrones</li>
+                <li>Fashion for success</li>
+                <li>The witcher</li>
+            </ul>
+        </article>
+
+
+        <article>
+            <h4>Ranking of the best crime literature novels</h4>
+            <ol>
+                <li>Project Riese.</li>
+                <li>Evil hides in the darkness.</li>
+                <li>Vengeance.</li>
+            </ol>
+        </article>
+
+
+
+
+
+
+        <!-- Task 3 -->
+        <article>
+            <h4>My favorite serials</h4>
+            <ul>
+                <li>Game of Thrones <a href="https://www.filmweb.pl/serial/Gra+o+tron-2011-476848">Game of Thrones</a>
+                </li>
+                <li>Fashion for success <a href="https://www.filmweb.pl/serial/Moda+na+sukces-1987-94193"> Fashion for
+                        success</a></li>
+                <li>The witcher<a href="https://www.filmweb.pl/serial/Wied%C5%BAmin-2019-724464"> The witcher</a></li>
+            </ul>
+        </article>
+
+
+
+        <!-- Task 4 -->
+        <!-- Question for students: How do you make the board have frames?-->
+        <article>
+            <table border="1">
+                <tr>
+                    <th> Data</th>
+                    <th> Scool</th>
+                </tr>
+                <tr>
+                    <td>2011 - currently</td>
+                    <td>UITM</td>
+                </tr>
+                <tr>
+                    <td>2008 - 2011</td>
+                    <td>High school No....</td>
+                </tr>
+                <tr>
+                    <td>2002 - 2008</td>
+                    <td>Primary School No....</td>
+                </tr>
+            </table>
+        </article>
+
+        <!--    Task 4.1 -->
+        <article>
+            <table border="1" width="100" height="100">
+                <tr>
+                    <td></td>
+                    <td rowspan="2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+
+                    <td rowspan="2" colspan="2"></td>
+                </tr>
+                <tr>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td></td>
+
+                </tr>
+            </table>
+        </article>
+        <!-- Task 5 -->
+        <article>
+            <h4>My favorite serials</h4>
+            <img src="https://i0.wp.com/mobirank.pl/wp-content/uploads/2020/03/moda-na-sukces-serial-1024x591-1.jpg?w=1024&ssl=1"
+                height="200" />
+            <ul>
+                <li>Game of Thrones <a href="https://www.filmweb.pl/serial/Gra+o+tron-2011-476848">Game of Thrones</a>
+                </li>
+                <li>Fashion for success <a href="https://www.filmweb.pl/serial/Moda+na+sukces-1987-94193"> Fashion for
+                        success</a>
+                </li>
+                <li>The witcher<a href="https://www.filmweb.pl/serial/Wied%C5%BAmin-2019-724464">
+                        The witcher</a></li>
+            </ul>
+        </article>
+    </main>
+    <aside>
+        Side menu
+    </aside>
+    <footer>© 2007-2014 JanKowalski.pl</footer>
+    <hr />
+    <hr />
+
+    <!-- ZADANIE 8 -->
+    <h1>Your news form</h1>
+    <form action="" method="get">
+        <div>
+            <label>Name: </label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="email" required>
+        </div>
+        <div>
+            <label>Do you want to get news daily? </label>
+            <input type="checkbox" checked />
+        </div>
+        <div>
+            <label>Do you want to get 10% dicount? </label>
+            <input type="radio">
+        </div>
+        <div>
+            <label>Select first news day</label>
+            <input type="date" requiredq />
+        </div>
+        <div>
+            <input type="submit" value="Subscribe!">
+        </div>
+    </form>
+
+</body>
+
+</html>
